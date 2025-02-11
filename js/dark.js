@@ -5,13 +5,11 @@ checkbox.addEventListener('change', function () {
     document.body.classList.toggle('dark');
 
     if(body.style.background === 'black'){
-        body.style.background = ' rgb(0, 128, 128)';
+        body.style.background = 'rgb(0, 128, 128)';
 
     }
 
     else{
         body.style.background = 'black';
     }
-   
-
-})
+});

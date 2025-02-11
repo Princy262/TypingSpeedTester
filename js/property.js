@@ -94,7 +94,7 @@ function initTyping() {
     else {
         clearInterval(timer);
         input.value = "";
-        alert("time is over");
+        alert("Time is over");
     }
 }
 
