@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/mode.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body >
+
+    <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-bold text-white md:block ">Typing Speed Tester</h1>
+
+    <div id="begin" class="mt-6">
+        
+        <div class="wrapper">
+            
+            <input type="text" class="input">
+                
+            <div class="contentArea">
+        
+                <div class="content p-5"  id="typingArea">
+                    <p id="parah">
+
+                        
+                    </p>
+                </div>
+
+                <hr>
+                    
+                <div id="result" class="flex flex-wrap text-center p-2 space-x-4">
+                    <div class="flex-1">
+                        <p>Time Left: 
+                            <span id="time">60</span>s
+                        </p>
+                    </div>    
+                    <div class="flex-1">
+                        <p>Mistakes:
+                            <span id="mistake">0</span>
+                        </p>
+                    </div>
+                    <div class="flex-1">
+                        <p>WPM:
+                            <span id="wpm">0</span>
+                        </p>
+                    </div>
+                    <div class="flex-1">
+                        <p>CPM:
+                            <span id="cpm">0</span>
+                        </p>
+                    </div>
+                    <div class="flex-1">
+                        <button id="try">Try Again</button>
+                    </div>
+                    <div class="flex-1 text-center flex flex-col pt-2 items-center">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <script src="js/paraGenerator.js"></script>
+    <script src="js/property.js"></script>
+    <script src="js/dark.js"></script>
+</body>
+</html>
