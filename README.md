@@ -1,4 +1,4 @@
-# Typing Speed Test
+# Typing Speed Tester
 The Typing Speed Test is a web application designed to help users improve their typing speed and accuracy. It presents users with random paragraphs to type within a set time limit, tracking their performance and providing feedback on their typing accuracy. This tool is perfect for anyone looking to enhance their typing skills, whether for professional or personal development.
 
 
@@ -17,7 +17,7 @@ The Typing Speed Test is a web application designed to help users improve their 
 
 ## Live Demo
 
-You can visit the website at [Typing Speed Test](https://princy262.github.io/TypingSpeedTester/).
+You can visit the website at [Typing Speed Tester](https://princy262.github.io/TypingSpeedTester/).
 
 ## Files
 
